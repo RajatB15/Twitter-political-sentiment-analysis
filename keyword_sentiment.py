@@ -6,11 +6,11 @@ import numpy as np
 
 class TwitterClient():
 	def __init__(self):
-		consumer_key='ak0hvEdMAgbF0gkv1GdBkmpCg'
-		consumer_secret='KKIgJJjfIEZXyOewohNsgHHig8p1eBHUuIafknVxCsgiCvZvib'
+		consumer_key='*******************'
+		consumer_secret='**********************'
 
-		access_token='4864852819-53ax5fiQZ3igNFfe5AHZhFsCO7v29ghHb6EhGIk'
-		access_token_secret='od87NsIw57CUNCeSLNruHSc17PLDzYn5TfQVNhqW8biGC'
+		access_token='***************************'
+		access_token_secret='**********************'
 
 		#log-in the app way
 		self.auth= tweepy.OAuthHandler(consumer_key,consumer_secret)
